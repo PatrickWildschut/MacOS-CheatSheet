@@ -2,7 +2,7 @@
 
 > Patrick Wildschut
 
-The commands shown beneath can be used when you have access to a MacOS machine using a `reverse shell` or some other tool that give you remote access to the machine.
+The commands shown beneath can be used when you have access to a MacOS machine using a `reverse shell` or some other tool that gives you remote access to the machine.
 
 ---------------------------------
 
@@ -15,7 +15,7 @@ echo "tell application \"System Events\" to keystroke \"H4CK3D\"" | osascript
 
 Press enter/return:
 ```bash
-echo "tell application \"System Events\" to keystroke return | osascript
+echo "tell application \"System Events\" to keystroke return" | osascript
 ```
 
 For specific (opened) app:
