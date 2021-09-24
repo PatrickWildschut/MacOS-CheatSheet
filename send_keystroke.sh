@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "tell application \"System Events\" to tell process \"$1\" to keystroke \"$2\"" | osascript
+if [ -z "$1" ]
+then
+	echo "usage: send_keystroke.sh \"You're Hacked!\""
+else
+	echo "tell application \"System Events\"to keystroke \"$1\"" | osascript
+fi
